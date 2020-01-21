@@ -1,12 +1,4 @@
-#' extract function
-#'
-#' This function prints some descriptive statistics of the subset of the database
-#' @param data TetraDENSITY database obtained through getData() or any of its subset obtained through extract()
-#' @param CountryBorder Highlight country borders in the map
-#' @param GeographicZoom Zoom map to the geographic area with density estimates
-#' @examples
-#' visualize(data)
-
+# extract function
 visualize<-function(data, map, CountryBorder=FALSE, GeographicZoom=TRUE){
 
 
