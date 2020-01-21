@@ -1,0 +1,11 @@
+Package: TetraDENSITY
+Type: The TetraDENSITY package
+Title: The TetraDENSITY package
+Version: 0.1.1
+Author: Luca Santini, Selwyn Hoeks
+Description: This package was made to explore the TetraDENSITY data set (see https://doi.org/10.1111/geb.12756).
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: sf
+Depends: R (>= 3.5.1)
