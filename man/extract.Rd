@@ -1,10 +1,8 @@
 \name{extract}
 \alias{extract}
 \title{extract function}
-
 \description{This function allows you to subset the database by taxa, spatial window, country, sampling years and sampling method. All arguments left as NULL will be ignored for subsetting.
 }
-
 \usage{
 extract(
   data,
@@ -20,7 +18,6 @@ extract(
   Methods = NULL
 )
 }
-
 \arguments{
 \item{data} {TetraDENSITY database obtained through getData()}
 \item{Class} {Taxonomic class}
@@ -34,7 +31,6 @@ extract(
 \item{Years} {vector with first and last year of the period of interest}
 \item{Methods} {vector with the list of method categories of interest (as described in the TetraDENSITY documentation)}
 }
-
 \examples{
 subset<-extract(data,
 Class='Mammalia', Order='Primates', Family='Atelidae', Genus=NULL, Species=NULL,
