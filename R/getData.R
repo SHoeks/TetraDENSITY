@@ -1,9 +1,4 @@
-#' getData
-#'
-#' This function downloads the TetraDENSITY database
-#' @examples
-#' data<-getData()
-
+# getData
 getData = function(){
   # url to get csv from
   url='https://ndownloader.figshare.com/files/20334360'
