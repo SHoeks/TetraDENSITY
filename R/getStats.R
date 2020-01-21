@@ -1,10 +1,4 @@
-#' extract function
-#'
-#' This function prints some descriptive statistics of the subset of the database
-#' @param data TetraDENSITY database obtained through getData() or any of its subset obtained through extract()
-#' @examples
-#' getStats(data)
-
+# extract function
 getStats<-function(data) {
 
   data$Dens2<-ifelse(data$Density_unit=='ind/ha', data$Density*100,
