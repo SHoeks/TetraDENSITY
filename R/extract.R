@@ -1,24 +1,4 @@
-#' extract function
-#'
-#' This function allows you to subset the database by taxa, spatial window, country, sampling years and sampling method.
-#' All arguments left as NULL will be ignored for subsetting.
-#' @param data TetraDENSITY database obtained through getData()
-#' @param Class Taxonomic class
-#' @param Order Taxonomic order
-#' @param Family Taxonomic family
-#' @param Genus Taxonomic genus
-#' @param Species Binomial name
-#' @param x_coords vector with minimum and maximum longitude in decimal degrees
-#' @param y_coords vector with minimum and maximum latitude in decimal degrees
-#' @param Country vector with the name of the countries of interest
-#' @param Years vector with first and last year of the period of interest
-#' @param Methods vector with the list of method categories of interest (as described in the TetraDENSITY documentation)
-#' @examples
-#' subset<-extract(data,
-#' Class='Mammalia', Order='Primates', Family='Atelidae', Genus=NULL, Species=NULL,
-#' x_coords=c(-80,-30), y_coords=c(-24,10), Country=c('Brazil', 'Venezuela', 'Peru', 'Colombia'),
-#' Years=c(1985,2015), Methods=NULL)
-
+# extract function
 extract<-function(data, Class=NULL, Order=NULL, Family=NULL, Genus=NULL, Species=NULL, x_coords=c(NULL,NULL), y_coords=c(NULL,NULL), Country=NULL, Years=c(NULL,NULL), Methods=NULL) {
 
   data$Year<-as.character(data$Year)
