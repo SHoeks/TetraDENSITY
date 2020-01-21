@@ -21,7 +21,7 @@ extract(
 )
 }
 
-
+\arguments{
 \item{data} {TetraDENSITY database obtained through getData()}
 \item{Class} {Taxonomic class}
 \item{Order} {Taxonomic order}
@@ -33,6 +33,7 @@ extract(
 \item{Country} {vector with the name of the countries of interest}
 \item{Years} {vector with first and last year of the period of interest}
 \item{Methods} {vector with the list of method categories of interest (as described in the TetraDENSITY documentation)}
+}
 
 \examples{
 subset<-extract(data,
