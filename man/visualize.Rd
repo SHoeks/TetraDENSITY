@@ -1,6 +1,6 @@
 \name{visualize}
 \alias{visualize}
-\title{extract function}
+\title{visualize function}
 \usage{
 visualize(data = data, CountryBorder = FALSE, GeographicZoom = TRUE)
 }
