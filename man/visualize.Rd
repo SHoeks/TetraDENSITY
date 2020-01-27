@@ -15,5 +15,26 @@ visualize(data = data, CountryBorder = FALSE, GeographicZoom = TRUE)
 This function prints some descriptive statistics of the subset of the database
 }
 \examples{
-visualize(data)
+
+# get the TetraDENSITY data 
+data <- getData()
+
+# subset the data
+subset<-extract(data=data, 
+  Class=NULL, Order='Primates', Family=NULL, Genus=NULL, Species=NULL, 
+	x_coords=NULL, y_coords=NULL, Country=NULL, 
+	Years=NULL, 
+	Methods=NULL)
+
+# load map on which the points are plotted
+map<-getMap()
+
+# plot records on the full world map
+visualize(data=subset, map=map, CountryBorder=FALSE, GeographicZoom=FALSE)
+
+# show country borders
+visualize(data=subset, map=map, CountryBorder=TRUE, GeographicZoom=FALSE)
+
+# zoom on the geographic area with the records
+visualize(data=subset, map=map, CountryBorder=FALSE, GeographicZoom=TRUE)
 }
