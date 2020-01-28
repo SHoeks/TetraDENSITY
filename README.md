@@ -1,5 +1,5 @@
 # TetraDENSITY
-This package was made to explore the TetraDENSITY data set.
+R package created to load, visualize and explore the TetraDENSITY data set.
 
 ## Information
 - Detailed information (package vignette) is presented at {URL_vignette}.
