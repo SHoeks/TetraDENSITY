@@ -1,8 +1,11 @@
 # TetraDENSITY
-This package was made to explore the TetraDENSITY data set (see https://doi.org/10.1111/geb.12756).
+This package was made to explore the TetraDENSITY data set.
+
+## Information
+- Detailed information (package vignette) is presented at {URL_vignette}.
+- See https://doi.org/10.1111/geb.12756 for the TetraDENSITY publication.
 
 ## Usage
-
 ```R
 # Install TetraDENSITY
 library('devtools')
