@@ -8,5 +8,6 @@ getMap()
 This function loads the map required by visualize function (TetraDENSITY package).
 }
 \examples{
+library(TetraDENSITY)
 map<-getMap()
 }
