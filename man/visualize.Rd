@@ -15,12 +15,14 @@ visualize(data = data, CountryBorder = FALSE, GeographicZoom = TRUE)
 This function prints some descriptive statistics of the subset of the database
 }
 \examples{
+# load package
+library(TetraDENSITY)
 
 # get the TetraDENSITY data 
-data <- getData()
+TetraDATA <- getData()
 
 # subset the data
-subset<-extract(data=data, 
+subset<-extract(data=TetraDATA, 
   Class=NULL, Order='Primates', Family=NULL, Genus=NULL, Species=NULL, 
 	x_coords=NULL, y_coords=NULL, Country=NULL, 
 	Years=NULL, 
