@@ -11,5 +11,7 @@ getStats(data)
 This function prints some descriptive statistics of the subset of the database
 }
 \examples{
-getStats(data)
+library(TetraDENSITY)
+TetraDATA <- getData()
+getStats(TetraDATA)
 }
