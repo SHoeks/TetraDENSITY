@@ -15,9 +15,9 @@ install_github("SHoeks/TetraDENSITY")
 library('TetraDENSITY')
 
 # Use TetraDENSITY functions
-data<-getData()
+TetraDATA<-getData()
 map<-getMap()
-getStats(data)
-visualize(data = data, map = map, CountryBorder = FALSE, GeographicZoom = TRUE)
-extract(data)
+getStats(TetraDATA)
+visualize(data = TetraDATA, map = map, CountryBorder = FALSE, GeographicZoom = TRUE)
+extract(TetraDATA)
 ```
