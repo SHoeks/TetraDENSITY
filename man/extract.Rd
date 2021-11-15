@@ -32,8 +32,11 @@ extract(
 \item{Methods}{vector with the list of method categories of interest (as described in the TetraDENSITY documentation)}
 }
 \examples{
-subset<-extract(data,
+library(TetraDENSITY)
+TetraDATA <- getData()
+subset<-extract(TetraDATA,
 Class='Mammalia', Order='Primates', Family='Atelidae', Genus=NULL, Species=NULL,
 x_coords=c(-80,-30), y_coords=c(-24,10), Country=c('Brazil', 'Venezuela', 'Peru', 'Colombia'),
 Years=c(1985,2015), Methods=NULL)
+  
 }
