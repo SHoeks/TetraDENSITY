@@ -8,5 +8,6 @@ getData()
 This function downloads the TetraDENSITY database
 }
 \examples{
-data<-getData()
+library(TetraDENSITY)
+TetraDATA <- getData()
 }
